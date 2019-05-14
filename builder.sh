@@ -11,5 +11,5 @@ if [[ ${action} == "deploy" ]]; then
 fi
 
 if [[ ${action} == "build" ]]; then
-    echo "build ${REGISTRY}"
+    echo "执行我了，是build"
 fi
