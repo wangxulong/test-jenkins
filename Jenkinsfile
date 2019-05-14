@@ -4,7 +4,7 @@ pipeline {
     stage('编译执行单元测试') {
       steps {
          echo "test"
-         sh "./builder.sh build"
+         sh "${env.WORKSPACE}/builder.sh build"
       }
     }
     
