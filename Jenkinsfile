@@ -4,7 +4,7 @@ pipeline {
     stage('编译执行单元测试') {
       steps {
          sh "当前的目录：${env.WORKSPACE}"
-        sh "${env.WORKSPACE}/builder.sh build"
+         bat "${env.WORKSPACE}/builder.sh build"
       }
     }
     
